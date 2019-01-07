@@ -16,5 +16,5 @@ def IsPrime(n):
     else:
         print "not prime"    
 
-n=input("enter the number n:")
+n=input("Enter the number n:")
 IsPrime(n)
