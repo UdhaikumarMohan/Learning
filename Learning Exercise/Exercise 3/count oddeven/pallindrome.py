@@ -1,6 +1,6 @@
 # Find the given number is pallindrome or not:
 
-def Pallindrome(N):
+def Ispallindrome(N):
 
     flag=True
 
@@ -18,4 +18,4 @@ def Pallindrome(N):
 
 #Input
 N=input("Enter the Integer: ")
-print(Pallindrome(N))
+print(Ispallindrome(N))
