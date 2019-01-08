@@ -3,33 +3,29 @@
 
 def Firstdigit(N):
 
+    flag=True    
+
     count=0
     A=N
-    while(N>0):
+    while(N>10):
         N%10
         count+=1
         N=N//10
 
-    count-=1
     X=(A//(10**count))
+    Y=(A%10)
 
-    return X
+    print("The First digit of the given integer", X)
+    print("The Last digit of the given integer",Y)
 
+    if (X!=Y):
+        flag=False
 
-# Last digit of the given integer
+    return flag
 
-def Lastdigit(N):
+N=input("Enter the value: ")
+print(Firstdigit(N))
 
-    X=N%10
-    return X
-
-if(Firstdigit(N)==Lastdigit(N)):
-        print("First and last digit are same")
-
-
-N=input("Enter the value of N: ")
-Firstdigit(N)
-Lastdigit(N)
 
 
 
