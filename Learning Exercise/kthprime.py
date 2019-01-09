@@ -14,13 +14,12 @@ def nprimes(N):
     while(count!=k):
         N+=1
         if(Isprime(N)):
-            print(N)
             count+=1
-            
+    return N    
         
     
     
             
 N=input("enter the number N:")
 k=input("enter the value k:")
-nprimes(N)
+print(nprimes(N))
