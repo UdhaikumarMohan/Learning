@@ -17,5 +17,5 @@ def Ispallindrome(N):
     return flag
 
 #Input
-N=input("Enter the Integer: ")
-print(Ispallindrome(N))
+#N=input("Enter the Integer: ")
+#print(Ispallindrome(N))

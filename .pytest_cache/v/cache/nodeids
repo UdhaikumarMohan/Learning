@@ -1,0 +1,11 @@
+[
+  "Learning Exercise/Exercise 3/test_digitdivision.py::test_canassertTrue", 
+  "Learning Exercise/Exercise 3/test_digitdivision.py::test_digitdivision", 
+  "Learning Exercise/Exercise 3/test_digitdivision.py::test_digitdivision1", 
+  "Learning Exercise/Exercise 3/test_reverse.py::test_canassertTrue", 
+  "Learning Exercise/Exercise 3/test_reverse.py::test_reverseofdigits", 
+  "Learning Exercise/Exercise 3/count oddeven/test_countoddeven.py::test_assertTrue", 
+  "Learning Exercise/Exercise 3/count oddeven/test_countoddeven.py::test_countoddeven", 
+  "Learning Exercise/Exercise 3/count oddeven/test_pallindrome.py::test_canassertTrue", 
+  "Learning Exercise/Exercise 3/count oddeven/test_pallindrome.py::test_pallindrome"
+]
