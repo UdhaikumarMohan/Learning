@@ -6,6 +6,7 @@ def Isprime(N):
         flag=False
     if (N==2):
         return flag
+        
     for i in range(2,int(math.sqrt(N)+1)):
 
         if (N%i==0):
