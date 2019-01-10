@@ -25,7 +25,7 @@ def sumofprimes(N):
 
     return sum
 
-N=input("Enter the value of N: ")
+N=input("Enter the value of N:")
 print(sumofprimes(N))
 
     
